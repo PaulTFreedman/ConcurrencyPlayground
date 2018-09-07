@@ -6,7 +6,10 @@ namespace ConcurrencyPlayground
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var runner = new DemoRunner();
+            runner.Run();
+
+            Console.ReadLine();
         }
     }
 }
