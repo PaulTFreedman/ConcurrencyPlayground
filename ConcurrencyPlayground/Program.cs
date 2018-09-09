@@ -9,6 +9,7 @@ namespace ConcurrencyPlayground
             var runner = new DemoRunner();
             runner.Run();
 
+            //Uncomment if you want to see the console output
             Console.ReadLine();
         }
     }
